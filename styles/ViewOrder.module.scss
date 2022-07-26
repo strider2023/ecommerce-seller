@@ -1,0 +1,41 @@
+.orderDetailsTitle {
+    font-family: 'Sora';
+    font-weight: 500;
+}
+
+.orderDetailsContent {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.fullfillButton {
+    margin: 5px;
+    color: white;
+    background: green;
+    font-size: 12px;
+    padding: 1rem;
+    margin: 10px !important;
+}
+
+.cancelButton {
+    margin: 5px;
+    color: white;
+    background: $tangerine;
+    font-size: 12px;
+    padding: 1rem;
+    margin: 10px !important;
+}
+
+.printButton {
+    margin: 5px;
+    color: white;
+    background: $stone-gray;
+    font-size: 12px;
+    padding: 1rem;
+    margin: 10px !important;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+}

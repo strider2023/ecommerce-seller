@@ -1,0 +1,39 @@
+.tabContianer {
+    border-radius: 100px;
+    border: 1px solid black;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    overflow-x: auto;
+
+    button {
+        flex-grow: 1;
+        padding: .8rem;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        margin: 0px;
+        cursor: pointer;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
+.activeButton {
+    color: $bumblebee;
+    border-radius: 100px;
+    border: 1px solid black;
+    background-color: black;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+
+.inActiveButton {
+    color: black;
+    background: none;
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}

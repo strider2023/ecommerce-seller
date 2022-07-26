@@ -1,0 +1,26 @@
+.storeItemListContainer {
+    padding: 1rem;
+}
+
+.storeItemListHeader {
+    font-family: 'Poppins', serif !important;
+    font-size: 2rem !important;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0px;
+}
+
+.storeItemImage {
+    height: 200px !important;
+    background-position: top !important;
+}
+
+.storeListItemBar {
+    font-family: 'Poppins', serif !important;
+}
+
+.selected {
+    background-color: $bumblebee;
+    color: $obsidion !important;
+    font-weight: 400 !important;
+}

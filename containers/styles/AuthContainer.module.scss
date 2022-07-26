@@ -1,0 +1,47 @@
+.authContainer {
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+
+    .main {
+        height: 100vh;
+        overflow-y: auto;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: center;
+    }
+
+    .main::before,
+    .main::after {
+        content: '';
+        margin: auto;
+    }
+}
+
+.authLogo {
+    background: linear-gradient(162.75deg, #ED3D86 -5.19%, #EF6535 97.56%);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .topRight {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .bottomLeft {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .logo {
+        width: 300px;
+        filter: invert(99%) sepia(0%) saturate(42%) hue-rotate(282deg) brightness(116%) contrast(100%);
+    }
+}

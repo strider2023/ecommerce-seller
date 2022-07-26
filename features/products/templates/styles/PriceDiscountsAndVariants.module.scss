@@ -1,0 +1,59 @@
+.accordionHeader {
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 20px;
+    margin: 0;
+}
+
+.accordionBodyContainer {
+
+    .accordionBodyItem {
+
+        .accordionFormContent {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0px;
+
+            .accordionTitle {
+                font-family: 'Sora';
+                font-size: 12px;
+                font-weight: 500;
+            }
+
+            .accordionFormItem {
+                flex-grow: 1;
+                margin: 0px 10px;
+            }
+
+            .removeButton {
+                background: $tangerine;
+            }
+        }
+    }
+
+    .productButton {
+        margin: 5px;
+        color: white;
+        background: black;
+        font-size: 12px;
+        padding: 1rem;
+    }
+
+}
+
+.dateContainer {
+    p {
+        font-family: 'Sora';
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .datePicker {
+        font-family: 'Poppins';
+        font-size: 1rem;
+        padding: 10px;
+        border-radius: 100px;
+    }
+}

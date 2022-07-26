@@ -1,0 +1,23 @@
+.helpText {
+    font-family: 'Sora' !important;
+    font-weight: 300;
+    color: $stone-gray;
+    font-size: 14px;
+    text-align: right;
+}
+
+.mailLink {
+    color: $bumblebee
+}
+
+.bannerList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+    padding: 1rem;
+
+    img {
+        height: 180px;
+    }
+}

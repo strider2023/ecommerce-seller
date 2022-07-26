@@ -1,0 +1,38 @@
+{
+  "name": "lehlah-seller-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.6.1",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.6.3",
+    "axios": "^0.27.2",
+    "cookie": "^0.5.0",
+    "cookie-cutter": "^0.2.0",
+    "graphql": "^16.4.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "next": "12.1.5",
+    "notiflix": "^3.2.5",
+    "react": "^17.0.2",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^17.0.2",
+    "react-quill": "^2.0.0-beta.4",
+    "sass": "^1.51.0"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}

@@ -1,0 +1,77 @@
+.sessionExpiredContainer {
+    background: linear-gradient(162.75deg, #ED3D86 -5.19%, #EF6535 97.56%);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+
+    .topRight {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .bottomLeft {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    .logo {
+        width: 300px;
+        filter: invert(99%) sepia(0%) saturate(42%) hue-rotate(282deg) brightness(116%) contrast(100%);
+    }
+
+    p {
+        color: white;
+        margin: 3rem;
+        font-weight: 400;
+        font-family: 'Poppins' !important;
+    }
+
+    .appButton {
+        padding: 12px 50px;
+        color: white;
+        border-radius: 100px;
+        border: 1px solid black;
+        background-color: black;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        cursor: pointer;
+      }
+}
+
+.brokenPage {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 80vh;
+
+    .title {
+        width: 300px;
+    }
+
+    p {
+        color: $obsidion;
+        margin: 3rem;
+        font-weight: 400;
+        font-family: 'Poppins' !important;
+    }
+
+    .appButton {
+        padding: 12px 50px;
+        color: white;
+        border-radius: 100px;
+        border: 1px solid black;
+        background-color: black;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        cursor: pointer;
+      }
+}

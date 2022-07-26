@@ -1,0 +1,55 @@
+.websiteHeaderContainer {
+    background-color: black !important;
+
+    .menuButton {
+        color: white;
+    }
+
+    h1 {
+        font-family: "Playfair Display", serif;
+        color: white;
+        font-size: 1.5em !important;
+        flex-grow: 1;
+    }
+
+    .appLogo {
+        height: 56px;
+        align-items: flex-start;
+        filter: invert(99%) sepia(0%) saturate(42%) hue-rotate(282deg) brightness(116%) contrast(100%);
+    }
+
+    .appTitle {
+        text-align: center;
+    }
+
+    .navLink {
+        text-decoration: none !important;
+    }
+}
+
+.appLogo {
+    height: 48px;
+    padding: 10px;
+    filter: invert(99%) sepia(0%) saturate(42%) hue-rotate(282deg) brightness(116%) contrast(100%);
+}
+
+.appDrawer {
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+
+    .drawerLogo {
+        height: 36px;
+        margin: 2em 1em;
+        align-items: flex-start;
+        filter: invert(99%) sepia(0%) saturate(42%) hue-rotate(282deg) brightness(116%) contrast(100%);
+    }
+}
+
+.iconButton {
+    color: white !important;
+}
+
+.iconButtonSelected {
+    color: $bumblebee !important;
+}

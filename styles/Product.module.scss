@@ -1,0 +1,59 @@
+.collectionItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 1rem;
+    align-items: center;
+
+    .collectionItemAdd {
+        width: 150px;
+        height: 150px;
+        border: 2px dashed $obsidion;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        cursor: pointer;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        p {
+            font-family: 'Sora' !important;
+            font-weight: 500;
+        }
+    }
+
+    .collectionItemSelected {
+        width: 150px;
+        height: 150px;
+        border: 2px solid $obsidion;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        position: relative;
+
+        .deleteIcon {
+            color: $tangerine;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 5px;
+        }
+
+        img {
+            width: 90px;
+            height: 90px;
+            cursor: 'pointer';
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.partialModalDialog {
+    background-color: white;
+
+    .appBar {
+        position: relative;
+        color: white;
+        background-color: black;
+    }
+
+    .title {
+        font-family: 'Poppins';
+        color: white;
+        font-size: 1.2em !important;
+        flex-grow: 1;
+        margin: 0;
+    }
+}
+
+.modalContainer {
+    padding: 1em !important;
+}
+
+.partial {
+    margin-top: 10rem !important;
+}
