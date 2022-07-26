@@ -37,7 +37,7 @@ function AppContainer(props) {
 
     return (
         <div className={styles.sellerContainer}>
-            <CommonHead title={"Lehlah - " + pageDate.name} description={pageDate.description} />
+            <CommonHead title={"Surplusss - " + pageDate.name} description={pageDate.description} />
             <AppHeader showBack={props.showBack || false} navData={navData}></AppHeader>
             <Container maxWidth="lg">
                 <main className={styles.pageContent}>

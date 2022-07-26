@@ -67,7 +67,7 @@ function Login() {
 
   return (
     <>
-      <CommonHead title="Lehlah - Sign In" />
+      <CommonHead title="Surplusss - Sign In" />
       <AuthContainer {...{
         header: 'Welcome',
         subHeader: 'Enter your email and password to get started',

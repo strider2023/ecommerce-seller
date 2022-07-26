@@ -51,7 +51,7 @@ function ForgotPassword() {
 
     return (
         <>
-            <CommonHead title="Lehlah - Forgot Password" />
+            <CommonHead title="Surplusss - Forgot Password" />
             <AuthContainer {...{
                 header: 'Welcome',
                 subHeader: 'Forgot Your Password?',

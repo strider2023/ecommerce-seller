@@ -19,10 +19,10 @@ function Registration() {
     const [registerSupplier] = useMutation(REGISTER, {
         onCompleted: (data) => {
             console.log(data.registerSupplier);
-            Notiflix.Report.success( 'Lehlah Registration', 'Thanks for registering to become a seller. Our sales team will verify your information and email you once the account is created.', 'Okay');
+            Notiflix.Report.success( 'Surplusss Registration', 'Thanks for registering to become a seller. Our sales team will verify your information and email you once the account is created.', 'Okay');
         },
         onError: () => {
-            Notiflix.Report.failure( 'Lehlah Registration', 'Something went wrong. Please try again.', 'Okay');
+            Notiflix.Report.failure( 'Surplusss Registration', 'Something went wrong. Please try again.', 'Okay');
         }
     });
 
@@ -42,7 +42,7 @@ function Registration() {
 
     return (
         <>
-            <CommonHead title="Lehlah - Seller Registration" />
+            <CommonHead title="Surplusss - Seller Registration" />
             <AuthContainer {...{
                 header: 'Hi',
                 subHeader: 'Tell us a bit about yourself',
